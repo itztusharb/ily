@@ -1,0 +1,72 @@
+.photo{
+    text-align: center;
+}
+.picI{
+    display: none;
+}
+.picL{
+    display: none;
+}
+.picO{
+    display: none;
+}
+.picV{
+    display: none;
+}
+.picE{
+    display: none;
+}
+.picU{
+    display: none;
+}
+@media screen and (max-width: 600px){
+    .photo{
+        display: none;
+        text-align: center;
+    }
+    .picI{
+        display: block;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .picI img{
+        width: 200px;
+    }
+    .picL{
+        display: block;
+        text-align: center;
+    }
+    .picO{
+        display: block;
+        text-align: center;
+    }
+    .picV{
+        display: block;
+        text-align: center;
+    }
+    .picE{
+        display: block;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .picU{
+        display: block;
+        text-align: center;
+    }
+    .picL img{
+        width: 200px;
+    }
+    .picO img{
+        width: 200px;
+    }
+    .picV img{
+        width: 200px;
+    }
+    .picE img{
+        width: 200px;
+    }
+    .picU img{
+        width: 200px;
+    }
+
+}
